@@ -5,6 +5,7 @@
 
 body{
   padding: 60px;
+  background-color: aliceblue;
 }
 
 input{
@@ -13,6 +14,12 @@ input{
   font-size: 1.2rem;
 }
 
+h1{
+  text-align: end;
+}
+h2{
+  text-decoration: underline;
+}
 .card {
   align-content: center;
   border: 1px solid gray;
@@ -20,10 +27,12 @@ input{
   overflow: hidden;
   margin-bottom: 10px;
   margin-right: 10px;
+  
 }
 .card p{
 padding: 5px;
 text-align: center;
+font-size: 10px;
 }
 .card img{
   max-height: 200px;
@@ -35,9 +44,6 @@ text-align: center;
   flex-wrap: wrap;
 }
 
-h2{
-  text-align: center;
-}
 
 .spinner {
   width: 40px;
